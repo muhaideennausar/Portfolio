@@ -28,8 +28,24 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Cream Cake";
+  src: url(./assets/fonts/Cream\ Cake.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BEBAS";
+  src: url(./assets/fonts/Bebas-Regular.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+
 @theme {
   --font-creato: "Creato Display", sans-serif;
+  --font-cream: "Cream Cake", serif;
+  --font-bebas: "BEBAS", sans-serif;
 
   --color-primary: #99cccc;
   --color-secondary: #669999;
@@ -44,5 +60,5 @@
 }
 
 .about-me-description {
-  @apply sm:max-w-250 font-normal text-2xl text-justify [text-align-last:center] text-gray-500 !text-[#003333];
+  @apply sm:max-w-250 font-normal text-2xl text-justify [text-align-last:center] text-gray-500 text-[#003333];
 }
