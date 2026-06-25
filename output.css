@@ -264,6 +264,15 @@
   .my-6 {
     margin-block: calc(var(--spacing) * 6);
   }
+  .mt-1 {
+    margin-top: var(--spacing);
+  }
+  .mt-1\.5 {
+    margin-top: calc(var(--spacing) * 1.5);
+  }
+  .mt-1\.25 {
+    margin-top: calc(var(--spacing) * 1.25);
+  }
   .mt-2 {
     margin-top: calc(var(--spacing) * 2);
   }
@@ -357,8 +366,26 @@
   .gap-x-12\.5 {
     column-gap: calc(var(--spacing) * 12.5);
   }
+  .gap-x-15 {
+    column-gap: calc(var(--spacing) * 15);
+  }
+  .gap-x-20 {
+    column-gap: calc(var(--spacing) * 20);
+  }
   .gap-x-25 {
     column-gap: calc(var(--spacing) * 25);
+  }
+  .gap-y-12 {
+    row-gap: calc(var(--spacing) * 12);
+  }
+  .gap-y-12\.5 {
+    row-gap: calc(var(--spacing) * 12.5);
+  }
+  .gap-y-17 {
+    row-gap: calc(var(--spacing) * 17);
+  }
+  .gap-y-17\.5 {
+    row-gap: calc(var(--spacing) * 17.5);
   }
   .gap-y-25 {
     row-gap: calc(var(--spacing) * 25);
@@ -455,8 +482,17 @@
   .py-22\.5 {
     padding-block: calc(var(--spacing) * 22.5);
   }
+  .py-25 {
+    padding-block: calc(var(--spacing) * 25);
+  }
   .py-30 {
     padding-block: calc(var(--spacing) * 30);
+  }
+  .py-37 {
+    padding-block: calc(var(--spacing) * 37);
+  }
+  .py-37\.5 {
+    padding-block: calc(var(--spacing) * 37.5);
   }
   .\!pb-15 {
     padding-bottom: calc(var(--spacing) * 15) !important;
