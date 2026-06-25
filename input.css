@@ -2,22 +2,29 @@
 
 @font-face {
   font-family: "Creato Display";
-  src: url(./assets/fonts/CreatoDisplay-Bold.otf) format("otf");
+  src: url(./assets/fonts/CreatoDisplay-Bold.otf);
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Creato Display";
-  src: url(./assets/fonts/CreatoDisplay-Light.otf) format("otf");
+  src: url(./assets/fonts/CreatoDisplay-Light.otf);
   font-weight: lighter;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Creato Display";
-  src: url(./assets/fonts/CreatoDisplay-Medium.otf) format("otf");
+  src: url(./assets/fonts/CreatoDisplay-Medium.otf);
   font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Creato Display";
+  src: url(./assets/fonts/CreatoDisplay-Regular.otf);
+  font-weight: normal;
   font-style: normal;
 }
 
@@ -29,9 +36,13 @@
 }
 
 .hero-button {
-  @apply w-32.5 h-15 bg-primary rounded-4xl border-secondary border-3 font-medium text-white text-2xl tracking-tighter  shadow-[0_7px_20px_0_rgba(54,69,77,0.25)] cursor-pointer;
+  @apply w-28 h-12 text-lg lg:w-32.5 lg:h-15 lg:text-2xl bg-primary rounded-4xl border-secondary border-3 font-medium text-white tracking-tight shadow-[0_7px_20px_0_rgba(54,69,77,0.25)] cursor-pointer;
 }
 
 .social-btns {
   @apply w-12.5 h-12.5 bg-primary flex items-center justify-center rounded-[7px] shadow-[0_7px_20px_0_rgba(54,69,77,0.25)];
+}
+
+.about-me-description {
+  @apply sm:max-w-250 font-normal text-2xl text-justify [text-align-last:center] text-gray-500 !text-[#003333];
 }

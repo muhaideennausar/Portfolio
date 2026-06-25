@@ -8,16 +8,17 @@
     <link rel="stylesheet" href="./output.css">
 </head>
 
-<body>
-    <div class="relative w-full h-screen flex items-center justify-center">
+<body class="m-0">
+    <div class="relative w-full min-h-screen flex p-4 sm:p-8">
         <div class="absolute inset-0 bg-[url('./assets/images/wavy-pattern.webp')] bg-cover bg-center opacity-25"></div>
-        <div class="content z-1 flex flex-col items-center">
-            <img class="w-150" src="./assets/images/Portfolio-Hero-Image-Transparent-Edited.webp" alt="Hero Banner">
+        <div class="content relative z-1 flex flex-col items-center m-auto py-10">
+            <img class="w-full max-w-[280px] sm:max-w-md lg:max-w-150 h-auto"
+                src="./assets/images/Portfolio-Hero-Image-Transparent-Edited.webp" alt="Hero Banner">
             <div class="hero-buttons font-creato flex gap-5">
                 <button class="hero-button">explore</button>
                 <button class="hero-button">contact</button>
             </div>
-            <div class="social-links flex gap-4 my-12.5">
+            <div class="social-links flex gap-4 my-6 lg:my-12.5">
                 <a class="social-btns" href="https://github.com/muhaideennausar" target="_blank">
                     <svg style="width: auto; height: 30;" viewBox="0 0 128 128">
                         <g fill="#669999">
@@ -30,8 +31,8 @@
                         </g>
                     </svg>
                 </a>
-                <a class="social-btns" href="www.linkedin.com/in/muhaideen-nausar" target="_blank">
-                    <svg style="width: auto; height: 30;" viewBox="0 0 128 128">
+                <a class="social-btns" href="https://www.linkedin.com/in/muhaideen-nausar" target="_blank">
+                    <svg style="width: auto; height: 40;" viewBox="0 0 128 128">
                         <path fill="#669999"
                             d="M21.06 48.73h18.11V107H21.06zm9.06-29a10.5 10.5 0 11-10.5 10.49 10.5 10.5 0 0110.5-10.49M50.53 48.73h17.36v8h.24c2.42-4.58 8.32-9.41 17.13-9.41C103.6 47.28 107 59.35 107 75v32H88.89V78.65c0-6.75-.12-15.44-9.41-15.44s-10.87 7.36-10.87 15V107H50.53z">
                         </path>
@@ -45,9 +46,39 @@
                     </svg>
                 </a>
             </div>
-            <p class="bg-gradient-to-b from-[#99cccc] to-[#669999] bg-clip-text text-transparent font-creato text-base">
-                scroll to
-                explore</p>
+            <p
+                class="absolute bottom-5 bg-gradient-to-b from-[#99cccc] to-[#669999] bg-clip-text text-transparent font-creato text-base">
+                scroll to explore</p>
+        </div>
+    </div>
+    <div class="w-full relative flex items-center justify-center">
+        <div class="absolute inset-0 bg-[url('./assets/images/dot-grid-pattern.svg')] bg-cover bg-center opacity-50">
+        </div>
+        <div class="absolute inset-0 bg-linear-to-b from-white via-transparent to-white"></div>
+        <div class="relative z-10 font-creato py-30">
+            <h3 class="font-medium text-gray-500 text-center text-5xl drop-shadow-[0_10px_10px_rgba(54,77,77,0.20)]">
+                Hi 👋🏻 I'm</h3>
+            <h1
+                class="text-center text-8xl font-bold mt-10 text-transparent bg-linear-to-b from-[#99cccc] to-[#669999] bg-clip-text drop-shadow-[0_15px_15px_rgba(54,77,77,0.20)]">
+                Muhaideen</h1>
+            <h1
+                class="text-center text-8xl font-bold mb-15 text-transparent bg-linear-to-b from-[#99cccc] to-[#669999] bg-clip-text drop-shadow-[0_15px_15px_rgba(54,77,77,0.20)]">
+                Nausar</h1>
+            <p class="about-me-description mb-5">A software
+                engineer who enjoys
+                building products
+                that solve
+                real
+                problems and help
+                people get things
+                done. I chose software engineering because it lets me combine creativity with problem-solving. Using
+                first-principles thinking, I break complex challenges into smaller pieces and build practical solutions
+                from the ground up. My interests include SaaS products, AI-powered tools, and modern web applications. I
+                enjoy turning ideas into useful, intuitive experiences through thoughtful design and engineering.</p>
+            <p class="about-me-description">Currently, I'm focused on learning, building, and shipping
+                products while
+                working toward my long-term goal of creating AuraStack, a software company dedicated to building
+                impactful digital solutions.</p>
         </div>
     </div>
 </body>

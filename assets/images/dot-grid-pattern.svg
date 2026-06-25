@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <!-- patternTransform="scale(0.5)" makes the grid look smaller by repeating it twice as much -->
+    <pattern id="dotGrid" width="44.444444" height="44.444444" patternUnits="userSpaceOnUse" patternTransform="scale(0.5)">
+      <g stroke-width="0.5" stroke="#99cccc" fill="none">
+        <rect width="44.444444" height="44.444444" x="0" y="0" opacity="0.15" />
+        <circle r="3.75" cx="0" cy="0" fill="#99cccc" stroke="none" />
+        <circle r="3.75" cx="44.444444" cy="0" fill="#99cccc" stroke="none" />
+        <circle r="3.75" cx="0" cy="44.444444" fill="#99cccc" stroke="none" />
+        <circle r="3.75" cx="44.444444" cy="44.444444" fill="#99cccc" stroke="none" />
+      </g>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#dotGrid)" />
+</svg>
